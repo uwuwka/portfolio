@@ -1,5 +1,5 @@
-project Predicting the cost of a car in the secondary market.
-
+# project Predicting the cost of a car in the secondary market.
+## описание
 загрузка и ознакомление с данными,
 предварительная обработка,
 полноценный разведочный анализ,
@@ -9,3 +9,13 @@ project Predicting the cost of a car in the secondary market.
 выбор и обучение моделей,
 итоговая оценка качества предсказания лучшей модели,
 анализ важности ее признаков.
+## инструменты 
+- numpy
+- pandas
+- matplotlib
+- tqdm
+- seaborn
+- os
+- catboost
+- sklearn
+## вывод 
