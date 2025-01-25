@@ -20,13 +20,13 @@
 # выводы
 Базовая модель нейронной сети с параметрами n_hidden_neurons_1 = 7, n_hidden_neurons_2 = 10 показала значение RMSE 7579. Улучшили модель, используя перебор количества нейронов в скрытых слоях, а также используем BatchNorm и Dropout. Установили следующие параметры:
 
-n_in_neurons = 14
-n_hidden_neurons_1 = 61
-n_hidden_neurons_2 = 141
-dropout_1 = 0.8
-dropout_2 = 0
-BatchNorn = 61
-BatchNorn_2 = 141
-n_out_neurons = 1
+* n_in_neurons = 14
+* n_hidden_neurons_1 = 61
+* n_hidden_neurons_2 = 141
+* dropout_1 = 0.8
+* dropout_2 = 0
+* BatchNorn = 61
+* BatchNorn_2 = 141
+* n_out_neurons = 1
 
 функция активации после каждого слоя: ELU, ReLU, ELU. Также для настройки модели использовали EarlyStopping. С данными параметрами нейронной сети мы достигли значения RMSE 4207.
