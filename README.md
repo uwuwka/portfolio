@@ -1,1 +1,12 @@
-В этом портфолио собраны выполненные работы от яндекс практикум (в том числе мастерские), а также проекты выполненные на платформе Kaggle
+# Portfolio
+
+Здесь собраны самые интересные проекты
+
+| #    | Наименование проекта                | Описание                                                     | Стек                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1.   | [сокращение потребления электроэнергии в производстве](https://github.com/uwuwka/portfolio/tree/main/yandex_practicum/reduction%20of%20electricity%20consumption%20in%20production) | построить модель, которая будет предсказывать температуру сплава металлов в печи| python,pandas,numpy,sqlalchemy,matplotlib,<br/>seaborn,torch,sklearn,warnings,catboost       |
+| 2.   | [предсказание возроста клиента по фото](https://github.com/uwuwka/portfolio/tree/main/yandex_practicum/Determining%20the%20age%20of%20buyers%20from%20photos) |разработать систему компьютерного зрения для обработки фотографий покупателей в супермаркете. Данная сиситема должна по фотографии определять возрост покупателя | python, pandas, numpy, matplotlib, sklearn, seaborn, tensorflow,warnings |
+| 3.   | [Предсказание стоимости жилья](https://github.com/uwuwka/portfolio/tree/main/yandex_practicum/predicting%20the%20median%20home%20price%20in%20California%20in%201990) | необходимо подключиться к серверу базы данных и выгрузить с него необходимые данные. На основе этих данных построить модель, которая предскажет стоимоть жилья в калифорнии в 1990 году| python, pandas, numpy, os, sklearn, tqdm,itertools,pyspark|
+| 4.   | [Выбор локации для скважины](https://github.com/uwuwka/portfolio/tree/main/yandex_practicum/selection%20of%20location%20for%20an%20oil%20well%20based%20on%20the%20ml%20model) |предоставлены пробы нефти в трёх регионах: в каждом 10 000 месторождений, где измерили качество нефти и объём её запасов. Построить модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Проанализировать возможную прибыль и риски техникой Bootstrap.| python, pandas, numpy, tqdm, sklearn, itertools,seaborn|
+| 5.   | [Прогнозирование температуры звезды](https://github.com/uwuwka/portfolio/tree/main/yandex_practicum/Predicting%20the%20temperature%20of%20a%20star) |придумать, как с помощью нейросети определять температуру на поверхности обнаруженных звёзд| python, pandas, numpy, torch, sklearn, skorch,seaborn,math,warnings|
+
